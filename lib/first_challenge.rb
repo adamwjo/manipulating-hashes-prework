@@ -19,6 +19,7 @@ def first_challenge
           if flavor == "strawberry"
             attribute.delete("#{index}"
           end
+          end
         end
       end
     end
