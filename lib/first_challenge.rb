@@ -18,8 +18,6 @@ def first_challenge
         value.each do |flavor|
           attribute.delete_if { |e| e == "strawberry" }
         end
-          end
-        end
       end
     end
   end
