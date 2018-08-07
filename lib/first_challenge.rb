@@ -18,6 +18,8 @@ def first_challenge
         value.each_with_index do |flavor, index|
           if flavor == "strawberry"
             attribute.delete("#{index}"
+          end
+        end
       end
     end
   end
